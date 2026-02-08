@@ -1,4 +1,5 @@
-SmartScan Azure 🚀
+## SmartScan Azure 🚀
+
 Serverlessowa platforma do inteligentnej analizy i archiwizacji dokumentów.
 
 ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
@@ -16,10 +17,11 @@ D -->|Zapisuje wynik| F[(Azure Cosmos DB)]
 F -->|Pobranie wyników| B
 ```
 
-📝 O projekcie
+### 📝 O projekcie
+
 SmartScan Azure to aplikacja typu "Cloud-Native", która automatyzuje proces wyciągania informacji z obrazów i dokumentów (OCR). System działa w architekturze sterowanej zdarzeniami (Event-Driven Architecture), co zapewnia mu niemal nieograniczoną skalowalność przy minimalnych kosztach utrzymania.
 
-Główne funkcjonalności:
+##### Główne funkcjonalności:
 
 Automatyczna analiza: System rozpoznaje tekst i obiekty na zdjęciach natychmiast po ich przesłaniu.
 
@@ -27,7 +29,8 @@ Przetwarzanie Serverless: Skalowanie do zera, gdy aplikacja nie jest używana.
 
 Bezpieczeństwo: Wykorzystanie Managed Identity zamiast haseł w kodzie.
 
-🏗️ Architektura systemu
+### 🏗️ Architektura systemu
+
 Aplikacja została zbudowana w oparciu o ekosystem Microsoft Azure:
 
 Frontend: React.js hostowany na Azure Static Web Apps.

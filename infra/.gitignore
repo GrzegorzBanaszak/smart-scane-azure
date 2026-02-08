@@ -1,0 +1,25 @@
+# Lokalne katalogi robocze (zawierają pluginy i moduły)
+.terraform/
+
+# Pliki stanu (State files) - zawierają wrażliwe dane o infrastrukturze!
+*.tfstate
+*.tfstate.backup
+*.tfstate.lock.info
+
+# Pliki zmiennych (często zawierają hasła i klucze)
+*.tfvars
+*.tfvars.json
+
+# Pliki konfiguracji zmiennych środowiskowych i override'y
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Pliki logów i błędy
+crash.log
+crash.*.log
+
+# Pliki konfiguracji CLI (np. tokeny do Terraform Cloud)
+.terraformrc
+terraform.rc
